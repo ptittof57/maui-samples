@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: macos-14-arm64
+  vmImage: macos-14-xlarge
 
 steps:
 - script: echo Hello, world!
